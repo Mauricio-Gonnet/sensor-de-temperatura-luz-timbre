@@ -5,6 +5,10 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("" + (input.temperature()))
     basic.pause(2000)
 })
+input.onButtonPressed(Button.B, function () {
+    basic.showString("" + (input.lightLevel()))
+    basic.pause(2000)
+})
 /**
  * Si la temperatura es mayor a 15°C, encender el aire acondicionado (turbina de computadora)
  */
